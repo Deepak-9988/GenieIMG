@@ -77,25 +77,25 @@ Make sure you have:
 ### 📦 Steps
 
 
-# 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/Deepak-9988/GenieIMG.git
 cd GenieIMG
 
-# 2. Install dependencies
+## 2. Install dependencies
 npm install
 
-# 3. Add environment variables
-# Create a .env file in the root directory and add:
+## 3. Add environment variables
+## Create a .env file in the root directory and add:
 MONGO_URI=your_mongo_connection_string
 AI_API_KEY=your_stability_ai_api_key
 
-# 4. Start the Metro bundler
+## 4. Start the Metro bundler
 npx react-native start
 
-# 5. Run the app on Android
+## 5. Run the app on Android
 npx react-native run-android
 
-# or on iOS (Mac only)
+## or on iOS (Mac only)
 npx react-native run-ios
 
 
