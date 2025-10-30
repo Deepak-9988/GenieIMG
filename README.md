@@ -1,97 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# ✨ GenieIMG - AI Image Generator App
 
-# Getting Started
+Unleash your creativity and generate stunning images with a simple text prompt!  
+**GenieIMG** is a modern, full-stack mobile application that transforms your imagination into high-quality visual art using the power of **Generative AI**.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 📸 Visual Showcase
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+| App Overview | Signup | Login |
+|---------------|---------|--------|
+| <img src="./screenshots/0 GenieIMG Overview.jpg" width="250" /> | <img src="./screenshots/1 Signup.png" width="250" /> | <img src="./screenshots/2 Login.png" width="250" /> |
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+| Generate Home | Generate with Keyboard | History |
+|----------------|------------------------|----------|
+| <img src="./screenshots/Generate Home Page.png" width="250" /> | <img src="./screenshots/Generate with keyboard.png" width="250" /> | <img src="./screenshots/a History.png" width="250" /> |
 
-```sh
-# Using npm
-npm start
+| Output 1 | Output 2 | Output 3 |
+|-----------|-----------|-----------|
+| <img src="./screenshots/Output 1.png" width="250" /> | <img src="./screenshots/Output 2.png" width="250" /> | <img src="./screenshots/Output 3.png" width="250" /> |
 
-# OR using Yarn
-yarn start
-```
+| Output 4 | Output 5 | Profile |
+|-----------|-----------|----------|
+| <img src="./screenshots/Output 4.png" width="250" /> | <img src="./screenshots/Output 5.png" width="250" /> | <img src="./screenshots/Profile.png" width="250" /> |
 
-## Step 2: Build and run your app
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## 🎨 Features
 
-```sh
-# Using npm
-npm run android
+| Feature | Description |
+|----------|-------------|
+| 🧠 **Prompt-to-Image Generation** | Generate unique, high-quality images simply by typing a descriptive text prompt. |
+| 🔐 **User Authentication** | Secure **Signup** and **Login** for managing user sessions. |
+| 🕓 **Personalized History** | Stores and displays previously generated images for quick access. |
+| 🖼️ **Image Details View** | Tap on any history image to view full-screen, see the prompt, and download/share it. |
+| 👤 **User Profile** | Displays user info (Name, Email, Member Since) with a Logout option. |
+| 🌈 **Sleek & Intuitive UI** | Blue-gradient theme with smooth **Reanimated transitions** for a polished user experience. |
 
-# OR using Yarn
-yarn android
-```
+---
 
-### iOS
+## 💻 Technical Stack & Architecture
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### 🪄 Frontend (Mobile App)
+- ⚛️ **React Native (Expo)** — Cross-platform app for iOS & Android  
+- 🎞️ **React Native Reanimated** — For fluid animations and transitions  
+- 💅 **Tailwind CSS / NativeWind** — Utility-first and consistent styling  
+- 🎨 **Custom Blue Gradient Theme** — Modern and appealing visual design  
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+### ⚙️ Backend (API & Database)
+- 🧩 **MERN Stack** — Powering backend and data storage  
+  - 🗄️ **MongoDB** — For storing user data and generated image history  
+  - 🚀 **Express.js** — For API routes and middleware  
+  - 🧠 **Node.js** — For server-side logic and API handling  
 
-```sh
-bundle install
-```
+### 🤖 AI / Generative Engine
+- 🪶 **Stability AI (or similar API)** — Converts text prompts into high-quality AI-generated images  
 
-Then, and every time you update your native dependencies, run:
+---
 
-```sh
-bundle exec pod install
-```
+## ⚙️ Installation & Setup
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+```bash
+# 1. Clone the repository
+git clone https://github.com/Deepak-9988/GenieIMG.git
+cd GenieIMG
 
-```sh
-# Using npm
-npm run ios
+# 2. Install dependencies
+npm install
 
-# OR using Yarn
-yarn ios
-```
+# 3. Add environment variables
+# Create a .env file in the root directory and add:
+MONGO_URI=your_mongo_connection_string
+AI_API_KEY=your_stability_ai_api_key
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+# 4. Start the development server (Expo)
+npx expo start
