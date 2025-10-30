@@ -96,12 +96,9 @@ npx react-native run-android
 
 # or on iOS (Mac only)
 npx react-native run-ios
-🧠 About the Project
 
 
 👨‍💻 Developer
 Deepak Kumar
 💻 [GitHub](https://github.com/Deepak-9988)
 📸 [Instagram](https://www.instagram.com/dpk._.dk/)
-
----
