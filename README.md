@@ -1,19 +1,25 @@
-# ✨ GenieIMG - AI Image Generator App
+<h1 align="left" style="background: linear-gradient(90deg, #007CF0, #00DFD8); -webkit-background-clip: text; color: transparent;">
+✨ GenieIMG — AI Image Generator App
+</h1>
 
-Unleash your creativity and generate stunning images with a simple text prompt!  
-**GenieIMG** is a modern, full-stack mobile application that transforms your imagination into high-quality visual art using the power of **Generative AI**.
+<p align="left">
+  <i>Unleash your creativity and craft stunning visuals from simple text prompts.</i><br>
+  <b>GenieIMG</b> is a next-generation, full-stack mobile application that brings your imagination to life using the power of <b>Generative AI</b>.
+</p>
+
 
 ---
 
 ## 📸 Visual Showcase
 
-| App Overview | Signup | Login |
-|---------------|---------|--------|
-| <img src="./Screenshots/0 GenieIMG Overview.jpg" width="250" /> | <img src="./Screenshots/1 Signup.png" width="250" /> | <img src="./Screenshots/2 Login.png" width="250" /> |
+| App Overview | Signup |
+|---------------|---------|
+| <img src="./Screenshots/0 GenieIMG Overview.jpg" width="525" style="object-fit:cover; border-radius:8px;" /> | <img src="./Screenshots/1 Signup.png" width="250" /> |
+
 
 | Generate Home | Generate with Keyboard | History |
 |----------------|------------------------|----------|
-| <img src="./Screenshots/Generate Home Page.png" width="250" /> | <img src="./Screenshots/Generate with keyboard.png" width="250" /> | <img src="./Screenshots/a History.png" width="250" /> |
+| <img src="./Screenshots/Generate Home Page.png" width="250" /> | <img src="./Screenshots/Generate with keyboard.png" width="250" /> | <img src="./Screenshots/History.png" width="250" /> |
 
 | Output 1 | Output 2 | Output 3 |
 |-----------|-----------|-----------|
@@ -22,6 +28,7 @@ Unleash your creativity and generate stunning images with a simple text prompt!
 | Output 4 | Output 5 | Profile |
 |-----------|-----------|----------|
 | <img src="./Screenshots/Output 4.png" width="250" /> | <img src="./Screenshots/Output 5.png" width="250" /> | <img src="./Screenshots/Profile.png" width="250" /> |
+
 
 
 ---
@@ -60,6 +67,14 @@ Unleash your creativity and generate stunning images with a simple text prompt!
 
 ## ⚙️ Installation & Setup
 
+### 🔧 Prerequisites
+Make sure you have:
+- Node.js and npm installed  
+- Android Studio (with SDK and emulator) or Xcode (for iOS)  
+- React Native CLI configured (`npx react-native doctor`)
+
+### 📦 Steps
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Deepak-9988/GenieIMG.git
@@ -73,5 +88,19 @@ npm install
 MONGO_URI=your_mongo_connection_string
 AI_API_KEY=your_stability_ai_api_key
 
-# 4. Start the development server (Expo)
-npx expo start
+# 4. Start the Metro bundler
+npx react-native start
+
+# 5. Run the app on Android
+npx react-native run-android
+
+# or on iOS (Mac only)
+npx react-native run-ios
+🧠 About the Project
+
+
+## 👨‍💻 Developer
+
+**Deepak Kumar**  
+💻 [GitHub](https://github.com/Deepak-9988)  
+📸 [Instagram](https://www.instagram.com/dpk._.dk/)
