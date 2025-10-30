@@ -9,19 +9,19 @@ Unleash your creativity and generate stunning images with a simple text prompt!
 
 | App Overview | Signup | Login |
 |---------------|---------|--------|
-| <img src="./screenshots/0 GenieIMG Overview.jpg" width="250" /> | <img src="./screenshots/1 Signup.png" width="250" /> | <img src="./screenshots/2 Login.png" width="250" /> |
+| <img src="./Screenshots/0 GenieIMG Overview.jpg" width="250" /> | <img src="./Screenshots/1 Signup.png" width="250" /> | <img src="./Screenshots/2 Login.png" width="250" /> |
 
 | Generate Home | Generate with Keyboard | History |
 |----------------|------------------------|----------|
-| <img src="./screenshots/Generate Home Page.png" width="250" /> | <img src="./screenshots/Generate with keyboard.png" width="250" /> | <img src="./screenshots/a History.png" width="250" /> |
+| <img src="./Screenshots/Generate Home Page.png" width="250" /> | <img src="./Screenshots/Generate with keyboard.png" width="250" /> | <img src="./Screenshots/a History.png" width="250" /> |
 
 | Output 1 | Output 2 | Output 3 |
 |-----------|-----------|-----------|
-| <img src="./screenshots/Output 1.png" width="250" /> | <img src="./screenshots/Output 2.png" width="250" /> | <img src="./screenshots/Output 3.png" width="250" /> |
+| <img src="./Screenshots/Output 1.png" width="250" /> | <img src="./Screenshots/Output 2.png" width="250" /> | <img src="./Screenshots/Output 3.png" width="250" /> |
 
 | Output 4 | Output 5 | Profile |
 |-----------|-----------|----------|
-| <img src="./screenshots/Output 4.png" width="250" /> | <img src="./screenshots/Output 5.png" width="250" /> | <img src="./screenshots/Profile.png" width="250" /> |
+| <img src="./Screenshots/Output 4.png" width="250" /> | <img src="./Screenshots/Output 5.png" width="250" /> | <img src="./Screenshots/Profile.png" width="250" /> |
 
 
 ---
