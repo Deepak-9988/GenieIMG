@@ -7,6 +7,7 @@
   <b>GenieIMG</b> is a next-generation, full-stack mobile application that brings your imagination to life using the power of <b>Generative AI</b>.
 </p>
 
+<!-- break -->
 
 ---
 
@@ -75,7 +76,7 @@ Make sure you have:
 
 ### 📦 Steps
 
-```bash
+
 # 1. Clone the repository
 git clone https://github.com/Deepak-9988/GenieIMG.git
 cd GenieIMG
@@ -98,7 +99,8 @@ npx react-native run-android
 npx react-native run-ios
 
 
-👨‍💻 Developer
-Deepak Kumar
+# GenieIMG
+
+👨‍💻 Developer  
 💻 [GitHub](https://github.com/Deepak-9988)  
 📸 [Instagram](https://www.instagram.com/dpk._.dk/)
