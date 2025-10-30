@@ -1,0 +1,66 @@
+# ==========================
+# React Native / Node
+# ==========================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ==========================
+# Android
+# ==========================
+android/.gradle/
+android/app/build/
+android/build/
+android/app/.cxx/
+*.keystore
+
+# ==========================
+# iOS
+# ==========================
+ios/Pods/
+ios/build/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# ==========================
+# Environment and config
+# ==========================
+.env
+.env.local
+.env.*.local
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Misc / temp
+# ==========================
+.expo/
+dist/
+coverage/
+
+# ==========================
+# Project-specific ignores
+# ==========================
+# Backend
+Genie-backend/.env
+Genie-backend/testKey.js
+
+# Frontend temp files
+Genie-frontend/src/screens/temp env
+
+# ==========================
+# Optional: OS-specific
+# ==========================
+.DS_Store
+Thumbs.db
